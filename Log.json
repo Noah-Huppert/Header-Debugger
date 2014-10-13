@@ -1,0 +1,244 @@
+{
+  "_readableState": {
+    "highWaterMark": 16384,
+    "buffer": [],
+    "length": 0,
+    "pipes": null,
+    "pipesCount": 0,
+    "flowing": false,
+    "ended": true,
+    "endEmitted": true,
+    "reading": false,
+    "calledRead": true,
+    "sync": true,
+    "needReadable": false,
+    "emittedReadable": false,
+    "readableListening": false,
+    "objectMode": false,
+    "defaultEncoding": "utf8",
+    "ranOut": false,
+    "awaitDrain": 0,
+    "readingMore": false,
+    "decoder": null,
+    "encoding": null
+  },
+  "readable": false,
+  "domain": null,
+  "_events": {},
+  "_maxListeners": 10,
+  "socket": {
+    "_connecting": false,
+    "_handle": {
+      "fd": null,
+      "writeQueueSize": 0,
+      "owner": {
+        "$ref": "$[\"socket\"]"
+      },
+      "reading": true
+    },
+    "_readableState": {
+      "highWaterMark": 16384,
+      "buffer": [],
+      "length": 0,
+      "pipes": null,
+      "pipesCount": 0,
+      "flowing": false,
+      "ended": false,
+      "endEmitted": false,
+      "reading": true,
+      "calledRead": true,
+      "sync": false,
+      "needReadable": true,
+      "emittedReadable": false,
+      "readableListening": false,
+      "objectMode": false,
+      "defaultEncoding": "utf8",
+      "ranOut": false,
+      "awaitDrain": 0,
+      "readingMore": false,
+      "decoder": null,
+      "encoding": null
+    },
+    "readable": true,
+    "domain": null,
+    "_events": {
+      "drain": [
+        null,
+        null
+      ],
+      "close": [
+        null
+      ]
+    },
+    "_maxListeners": 10,
+    "_writableState": {
+      "highWaterMark": 16384,
+      "objectMode": false,
+      "needDrain": false,
+      "ending": false,
+      "ended": false,
+      "finished": false,
+      "decodeStrings": false,
+      "defaultEncoding": "utf8",
+      "length": 0,
+      "writing": false,
+      "sync": false,
+      "bufferProcessing": false,
+      "writecb": null,
+      "writelen": 0,
+      "buffer": [],
+      "errorEmitted": false
+    },
+    "writable": true,
+    "allowHalfOpen": true,
+    "destroyed": false,
+    "bytesRead": 465,
+    "_bytesDispatched": 164,
+    "_pendingData": null,
+    "_pendingEncoding": "",
+    "server": {
+      "domain": null,
+      "_events": {},
+      "_maxListeners": 10,
+      "_connections": 1,
+      "connections": 1,
+      "_handle": {
+        "fd": null,
+        "writeQueueSize": 0,
+        "owner": {
+          "$ref": "$[\"socket\"][\"server\"]"
+        }
+      },
+      "_usingSlaves": false,
+      "_slaves": [],
+      "allowHalfOpen": true,
+      "httpAllowHalfOpen": false,
+      "timeout": 120000,
+      "_connectionKey": "4:0.0.0.0:3000"
+    },
+    "_idleTimeout": 120000,
+    "_idlePrev": {
+      "_idleNext": {
+        "$ref": "$[\"socket\"]"
+      }
+    },
+    "_idleStart": 1413129036502,
+    "_monotonicStartTime": 759298187,
+    "parser": {
+      "_headers": [],
+      "_url": "",
+      "socket": {
+        "$ref": "$[\"socket\"]"
+      },
+      "incoming": null,
+      "maxHeaderPairs": 2000
+    },
+    "_paused": false,
+    "_httpMessage": null
+  },
+  "connection": {
+    "$ref": "$[\"socket\"]"
+  },
+  "httpVersion": "1.1",
+  "complete": false,
+  "headers": {
+    "host": "127.0.0.1:3000",
+    "code": "4/qazYoReIJZAYO9izlTjjJA.gihwUJ6zgoERgtL038sCVnsvSfAJkgI",
+    "grant_type": "authorization_code",
+    "client_secret": "ZbaM57cvwiPO6neRZNE3Ob_x",
+    "redirect_uri": "http://127.0.0.1:9000/api/users/auth/google/callback",
+    "client_id": "720845144477-unttgnte8agkvpuabfgkpb3unjdf456l.apps.googleusercontent.com",
+    "content-type": "text/plain; charset=utf-8",
+    "connection": "keep-alive",
+    "accept": "*/*",
+    "user-agent": "NING/1.0",
+    "content-length": "14"
+  },
+  "trailers": {},
+  "_pendings": [],
+  "_pendingIndex": 0,
+  "url": "/",
+  "method": "POST",
+  "statusCode": null,
+  "client": {
+    "$ref": "$[\"socket\"]"
+  },
+  "_consuming": true,
+  "_dumped": true,
+  "httpVersionMajor": 1,
+  "httpVersionMinor": 1,
+  "upgrade": false,
+  "baseUrl": "",
+  "originalUrl": "/",
+  "_parsedUrl": {
+    "protocol": null,
+    "slashes": null,
+    "auth": null,
+    "host": null,
+    "port": null,
+    "hostname": null,
+    "hash": null,
+    "search": null,
+    "query": null,
+    "pathname": "/",
+    "path": "/",
+    "href": "/",
+    "_raw": "/"
+  },
+  "params": {},
+  "query": {},
+  "res": {
+    "domain": null,
+    "_events": {},
+    "_maxListeners": 10,
+    "output": [],
+    "outputEncodings": [],
+    "writable": true,
+    "_last": false,
+    "chunkedEncoding": false,
+    "shouldKeepAlive": true,
+    "useChunkedEncodingByDefault": true,
+    "sendDate": true,
+    "_headerSent": true,
+    "_header": "HTTP/1.1 200 OK\r\nX-Powered-By: Express\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 2\r\nDate: Sun, 12 Oct 2014 15:50:36 GMT\r\nConnection: keep-alive\r\n\r\n",
+    "_hasBody": true,
+    "_trailer": "",
+    "finished": true,
+    "_hangupClose": false,
+    "socket": null,
+    "connection": null,
+    "_headers": {
+      "x-powered-by": "Express",
+      "content-type": "text/html; charset=utf-8",
+      "content-length": "2"
+    },
+    "_headerNames": {
+      "x-powered-by": "X-Powered-By",
+      "content-type": "Content-Type",
+      "content-length": "Content-Length"
+    },
+    "req": {
+      "$ref": "$"
+    },
+    "locals": {},
+    "statusCode": 200
+  },
+  "body": {},
+  "route": {
+    "path": "/",
+    "stack": [
+      {
+        "name": "<anonymous>",
+        "keys": [],
+        "regexp": {},
+        "method": "post"
+      }
+    ],
+    "methods": {
+      "post": true
+    }
+  },
+  "level": "info",
+  "message": "",
+  "timestamp": "2014-10-12T15:50:36.627Z"
+}
